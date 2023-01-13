@@ -158,5 +158,44 @@ input[type='color']:active {
     color: var(--primary-dark);
     font-size: 20px;
 
+  } 
+  @media  (max-width: 1200px){
+    .main{
+      justify-content:center;
+    }
   }
+  @media(max-width: 850px){
+    .main {
+      gap: 50px;
+    }
+    .setttings{
+      width: 150px;
+      gap: 16px;
+    }
+    .grid{
+      height: 400px;
+      width: 400px;
+    }
+    .footer{
+      margin-top: 35px;
+    }
+   
+  }
+  @media(max-width:500px){
+    .title{
+      font-size: 30px;
+      line-height: 1.7;
+    }
+    .main{
+      flex-direction: column-reverse;
+    }
+    .footer{
+      margin-top: 30px;
+    }
+
+  }
+
+
+
+    
   
